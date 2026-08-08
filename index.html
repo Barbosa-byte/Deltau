@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صروح الدلتا للمقاولات العامة | الرئيسية</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="antialiased text-gray-800">
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center space-x-3 space-x-reverse">
+                    <div class="w-12 h-12 rounded-xl bg-slate-900 flex items-center justify-center text-amber-400 font-black text-2xl shadow-md">
+                        <i class="fa-solid fa-building-user"></i>
+                    </div>
+                    <div>
+                        <span class="text-xl font-extrabold block text-slate-900 tracking-wide">صُروح الدلتا</span>
+                        <span class="text-xs text-amber-600 font-medium tracking-widest block uppercase">Suruuh Al-Delta</span>
+                    </div>
+                </a>
+
+                <nav class="hidden md:flex items-center space-x-8 space-x-reverse">
+                    <a href="index.html" class="text-sm font-bold text-amber-600">الرئيسية</a>
+                    <a href="about.html" class="text-sm font-bold text-gray-700 hover:text-amber-600 transition-colors">عن الشركة</a>
+                    <a href="services.html" class="text-sm font-bold text-gray-700 hover:text-amber-600 transition-colors">خدماتنا وشركاؤنا</a>
+                    <a href="index.html#contact" class="px-5 py-2.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-amber-400 font-bold text-sm transition-all shadow-md">تواصل معنا</a>
+                </nav>
+
+                <div class="md:hidden">
+                    <button type="button" id="mobile-menu-btn" class="text-gray-700 p-2">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="hidden md:hidden bg-white border-t border-gray-100 px-4 pt-2 pb-6 space-y-3 shadow-lg" id="mobile-menu">
+            <a href="index.html" class="block px-3 py-2 rounded-md text-base font-bold text-amber-600">الرئيسية</a>
+            <a href="about.html" class="block px-3 py-2 rounded-md text-base font-bold text-gray-700 hover:bg-gray-50">عن الشركة</a>
+            <a href="services.html" class="block px-3 py-2 rounded-md text-base font-bold text-gray-700 hover:bg-gray-50">خدماتنا وشركاؤنا</a>
+            <a href="index.html#contact" class="block text-center px-4 py-2.5 rounded-lg bg-slate-900 text-amber-400 font-bold">تواصل معنا</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen pt-32 pb-20 flex items-center justify-center bg-hero-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-700 text-sm font-bold mb-6">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>جودة يوثق بها • خبرة يُعتمد عليها</span>
+            </div>
+
+            <h1 class="text-4xl sm:text-6xl font-black tracking-tight leading-tight mb-6 text-slate-950">
+                صُروح الدلتا للمقاولات العامة
+                <span class="block text-gradient mt-2 text-3xl sm:text-5xl font-extrabold">نبني آفاق المستقبل</span>
+            </h1>
+
+            <p class="max-w-3xl mx-auto text-lg sm:text-xl text-gray-600 leading-relaxed mb-10">
+                نقدم أحدث الحلول والابتكارات الهندسية في مجال المقاولات العامة، العزل المائي والحراري، وأعمال التشطيبات وفق أعلى معايير الجودة والاستدامة في المملكة العربية السعودية.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="services.html" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-amber-500 hover:bg-amber-600 text-white font-bold text-lg shadow-lg transition-all hover:scale-105">
+                    استكشف خدماتنا <i class="fa-solid fa-arrow-left mr-2"></i>
+                </a>
+                <a href="#contact" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-lg shadow-lg transition-all hover:scale-105">
+                    طلب استشارة مجانية
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-gray-50 border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <span class="text-amber-600 font-bold text-sm tracking-widest uppercase">يسعدنا تواصلك معنا</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-950 mt-2 mb-6">تواصل معنا اليوم</h2>
+                    <p class="text-gray-600 leading-relaxed mb-8">
+                        فريقنا من المهندسين والمختصين جاهز دائماً للرد على جميع استفساراتكم الفنية والتقنية، وتقديم الاستشارات وعروض الأسعار لمشاريعكم.
+                    </p>
+
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs text-gray-500">الهاتف / الواتساب</div>
+                                <a href="tel:0595110679" dir="ltr" class="text-lg font-bold text-slate-900 hover:text-amber-600 transition-colors">0595110679</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs text-gray-500">البريد الإلكتروني</div>
+                                <a href="mailto:altaawon.ex@gmail.com" class="text-lg font-bold text-slate-900 hover:text-amber-600 transition-colors">altaawon.ex@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs text-gray-500">العنوان والمقر الرئيسي</div>
+                                <div class="text-lg font-bold text-slate-900">أبها / الرياض - المملكة العربية السعودية</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="white-card p-8 shadow-lg">
+                    <form id="contact-form" class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-bold text-slate-900 mb-1">الاسم الكامل</label>
+                            <input type="text" required class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:outline-none focus:border-amber-500">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold text-slate-900 mb-1">رقم الجوال</label>
+                            <input type="tel" required class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:outline-none focus:border-amber-500">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold text-slate-900 mb-1">نوع الخدمة المطلوبة</label>
+                            <select class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:outline-none focus:border-amber-500">
+                                <option>العزل المائي والحراري</option>
+                                <option>أعمال التشطيبات والديكور</option>
+                                <option>أعمال الإنشاءات العامة</option>
+                                <option>خدمة أخرى</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold text-slate-900 mb-1">تفاصيل الرسالة</label>
+                            <textarea rows="4" required class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:outline-none focus:border-amber-500"></textarea>
+                        </div>
+                        <button type="submit" class="w-full py-4 rounded-xl bg-amber-500 hover:bg-amber-600 text-white font-bold text-lg shadow-md">
+                            إرسال الطلب عبر الواتساب <i class="fa-solid fa-paper-plane mr-2"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-white py-8 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-sm text-gray-400">جميع الحقوق محفوظة © <span id="year"></span> صروح الدلتا للمقاولات العامة</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
