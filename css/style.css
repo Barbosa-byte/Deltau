@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap');
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #ffffff;
+    color: #1f2937;
+    overflow-x: hidden;
+}
+
+.white-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    border-radius: 1rem;
+}
+
+.card-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+    transform: translateY(-6px);
+    border-color: #f59e0b;
+    box-shadow: 0 20px 25px -5px rgba(245, 158, 11, 0.15), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, #0f2038 0%, #d97706 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-hero-light {
+    background: radial-gradient(circle at 50% 20%, rgba(245, 158, 11, 0.08) 0%, rgba(255, 255, 255, 1) 70%),
+                linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #f59e0b;
+}
